@@ -293,4 +293,56 @@
   z-index:2;
   mix-blend-mode:difference;
 }
+
+/* Services Section Style */
+.serv-item{
+  position:relative;
+  padding:40px 0;
+  border-bottom:1px solid #2f2e2e;
+}
  
+.serv-item .serv-item-arrow{
+  position:absolute;
+  display:inline-block;
+  width:55px;
+  height:55px;
+  top:50%;
+  transform:translateY(-50%);
+  right:0;
+}
+
+.serv-item .serv-item-arrow img{
+  width:100%;
+  display:block;
+  transform:rotate(180deg);
+}
+
+.serv .content{
+  width:100%;
+  padding:0 70px;
+}
+
+.serv-item .serv-item-text{
+  font-size:50px;
+  color:#4b4b4b;
+  text-transform:uppercase;
+}
+
+/* Footer Style */
+.footer{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  height:100vh;
+}
+
+.footer-wrapper{
+  font-size:70px;
+  letter-spacing:15px;
+  color:#fff;
+  text-transform:uppercase;
+}
+
+.footer-wrapper span{
+  display:inline-block;
+}

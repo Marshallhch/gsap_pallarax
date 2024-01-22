@@ -16,3 +16,7 @@
 ### Version 0.0.4 : 0117
 
 - work Section UI and Animation
+
+### Version 1.0.0 : 0122
+
+- PC Version Complete
